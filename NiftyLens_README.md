@@ -2,10 +2,6 @@
 
 A Power BI dashboard that turns three years of daily Nifty 50 price data into one easy question: **how healthy is the Indian stock market today, and how healthy is any single stock in it?**
 
-**Live web version:** [nifty-lens.vercel.app](https://nifty-lens.vercel.app/), where this dashboard is embedded in a full web application.
-**Web app code (data fetching, SQL storage, React frontend):** [github.com/24f-3004548/NiftyLens](https://github.com/24f-3004548/NiftyLens)
-
-<!-- Add a screenshot of each page here, for example: ![Market Health Overview](screenshot_page1.png) -->
 
 ## What this project is
 
@@ -88,9 +84,6 @@ The data model also holds tables for direction (daily return and reward), trend 
 1. Install **Power BI Desktop** (free, Windows only).
 2. Download `Dashboard_NiftyLens.pbix` from this repo.
 3. Open the file. The data is already loaded in the report, so both pages work straight away.
-4. Note: clicking **Refresh** will fail on another computer, because one data query points to a CSV file on the original author's machine.
 
-## Team
 
-<!-- Add the team members and what each person did, for example: Name: data collection and SQL. Name: Power BI report. Name: web application. -->
-Built as a team project.
+
